@@ -1,0 +1,10 @@
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?uri ?label
+WHERE {
+  ?uri
+    a qb:DataSet;
+    rdfs:label ?label;
+    .
+} GROUP BY ?uri ?label
