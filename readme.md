@@ -135,3 +135,7 @@ This will execute a search for the default query, "booze", then drop you into a 
 ```
 index.search('poison')
 ```
+
+## License
+
+GloVe data is shared under the APL2, most of the data from gss-data.org.uk falls under OGL3, and the source for this prototype is shared under CC-BY.
